@@ -1,0 +1,340 @@
+@media screen and (max-width: 1080px) {
+
+    .numberTable .number {
+        padding: 0px 30px;
+    }
+    * {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nav .navLinks {
+        margin: 20px 0;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    
+     .numberTable .number {
+         padding: 10px 40px;
+         margin: 5px 0;
+     }
+
+     .exploreCards, .featuredCards {
+        width: 100%;
+    }
+
+    .exploreCard {
+        background-size: cover;
+        height: 300px;
+        width: 40vw;
+        margin: 20px 20px;
+     }
+    
+    
+    .exploreCard:first-child {
+        width: calc(80vw + 40px);
+    }
+}
+
+@media screen and (max-width: 902px) {
+    * {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 902px) {
+    
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footerTitle {
+        font-size: 20px !important;
+    }
+
+    .footerList {
+        margin: 10px 0;
+    }
+
+    .footerList .subscribeForm {
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .nav {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5px 10px;
+        text-align: center;
+    }
+    
+    .navHam {
+        display: inline;
+    }
+
+    .navLinks {
+        display: none;
+    }
+    
+    /* .nav {
+        padding: 0px;
+        text-align: center;
+    }
+
+    .nav .navLinks {
+        flex-direction: column;
+    }
+     
+    .nav .navOpt {
+        text-align: center;
+    }
+
+    .nav .navOpt:not(:first-child) {
+        width: 200px;
+        margin: 10px;
+    } */
+
+    .topMainHeading {
+        font-size: 60px;
+    }
+
+    .topSecondaryHeading {
+        font-size: 14px;
+    }
+
+    .askDestination input, .askDestination button {
+        font-size: 12px;
+        padding: 10px 13px;
+    }
+    
+    .askDestination input {
+        width: 300px;
+        border-radius: 5px 0 0 5px; 
+    }
+    
+    .askDestinationBoatIcon {
+        height: 10px;
+    }
+
+    .askDestination button {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .numberTable {
+        width: 80vw;
+    }
+
+    .numberTable .number {
+        padding: 10px 35px;
+        margin: 2px 0;
+    }
+
+    .numberTable .number .total {
+        font-size: 15px;
+    }
+    
+    .numberTable .number .numberLabel {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+
+    .topMainHeading {
+        margin-top: 70px;
+    }
+
+    .exploreCards, .featuredCards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .exploreCard {
+        background-size: cover;
+        height: 300px;
+        width: 80vw;
+        margin: 20px 20px;
+     }
+    
+    
+    .exploreCard:first-child {
+        width: 80vw;
+    }
+
+    .featuredCards .featuredCard {
+        height: 300px;
+        width: 80vw;
+        margin: 20px 20px;
+     }
+
+}
+
+@media screen and (max-width: 520px) {
+     .ownBoatContents .contPrimary {
+        font-size: 3.5em;
+        font-weight: 600;
+        margin: 0 0 8px 0;
+        text-align: center;
+    }
+    
+    .ownBoatContents .contSecondary {
+        display: inline-block;
+        font-size: 0.75em;
+        font-weight: 300;
+        margin: 20px 0 45px 0;
+    }
+    
+    .ownBoatContents .contButton button {
+        outline: none;
+        border: none;
+        background-color: #e7434e;
+        color: #f9fafe;
+        font-size: 9px;
+        padding: 12px 26.66px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+   
+}
+
+@media screen and (max-width: 520px) {
+    .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .numberTable .number {
+        padding: 10px 25px;
+        margin: 2px 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .navLinks .navOpt{
+        padding: 0 !important;
+        width: 100%;
+    }
+
+    .numberTable .number {
+        padding: 10px 10px;
+        margin: 2px 0;
+        font-size: 50%;
+    }
+
+    .askDestination input, .askDestination button {
+        width: auto;
+    }
+
+    .askDestination input, .askDestination button {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    
+    * {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .askDestination {
+        flex-direction: column;
+    }
+
+    .askDestination button {
+        margin: 10px 0;
+    }
+
+    .askDestination button, .askDestination input {
+        border-radius: 5px;
+    }
+
+    .topMainHeading, .exploreTitle .primary, .ownBoatContents .contPrimary {
+        font-size: 200%;
+    }
+
+    .numberTable .number {
+        padding: 5px 5px;
+        margin: 2px 0;
+        font-size: 80%;
+    }
+
+    .numberTable {
+        flex-direction: column;
+    }
+
+    .numberTable .number:not(:last-child) {
+        border-right: none;
+        border-bottom: 1px #cccccc99 solid;
+    } 
+
+    .subscribeForm {
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    .subscribeForm input, .subscribeForm button {
+        width: 70vw;
+        padding: 5px;
+        font-size: 50%;
+        border-radius: 5px;
+        margin: 5px 0 0 0;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 860px) and (-webkit-min-device-pixel-ratio: 2) and (orientation:landscape) {
+    .top {
+        height: 500px;
+    }
+
+    .numberTable {
+        top: 500px;
+    }
+}
+
+@media only screen and (max-width: 860px) and (-webkit-min-device-pixel-ratio: 2) and (orientation:landscape) {
+    .top {
+        height: 500px;
+    }
+    .numberTable {
+        top: 500px;
+    }
+}
+
+@media only screen and (max-width: 860px) and (-webkit-min-device-pixel-ratio: 2) and (orientation:landscape) {
+    .top {
+        height: 500px;
+    }
+    .numberTable {
+        top: 500px;
+    }
+}

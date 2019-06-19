@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nava | Boats and Travels</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/query.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d9e9e84b25.js"></script>
+</head>
+<body>
+    <div class="top">
+        <div class="nav">
+            <div class="navLogo">
+                <img src="pictures/Nava_logo.png" alt="">
+            </div>
+            <div class="navLinks">
+                <span class="navOpt"><a href="#topDestinations">Top Destinations</a></span>
+                <span class="navOpt"><a href="#addBoat">Add your boat</a></span>
+                <span class="navOpt"><a href="#" class="navSignUp">Sign Up</a></span>
+            </div>
+            <div class="navHam">
+                <form class="ham">
+                    <input type="checkbox" id="bars" />
+                    <label for="bars" class="first"></label>
+                </form>
+            </div>
+        </div>
+        <div class="reserveBoat">
+            <div class="topMainHeading">
+                <span>reserve a boat now!</span>
+            </div>
+            <div class="topSecondaryHeading">
+                <span>And set your sails into paradise!</span>
+            </div>
+            <form class="askDestination">
+                <input type="text"  placeholder="What is your destination sailor?">
+                <button type="submit" style="display: flex; align-items: center">
+                    <img src="pictures/Nava_sailboatIcon.png" alt="" class="askDestinationBoatIcon">
+                    &nbsp;
+                    <span style="font-weight: 500">Find a boat</span>
+                </button>
+            </form>
+        </div>
+        <div class="numberTable">
+                <div class="number">
+                    <span class="total">2,300</span>
+                    <span class="numberLabel">Destinations</span>
+                </div>
+                <div class="number">
+                    <span class="total">1,000</span>
+                    <span class="numberLabel">Cities</span>
+                </div>
+                <div class="number">
+                    <span class="total">35,000</span>
+                    <span class="numberLabel">Boats</span>
+                </div>
+                <div class="number">
+                    <span class="total">50,000</span>
+                    <span class="numberLabel">Sailors</span>
+                </div>
+            </div>
+    </div>
+    
+
+    <div class="explore" id="topDestinations">
+        <div class="exploreTitle">
+            <span class="primary">Explore our top destinations</span>
+            <br>
+            <span class="secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis beatae dolore expedita ex dicta facilis?</span>
+        </div>
+        <div class="exploreCards">
+            <div class="exploreCard" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('pictures/Destination1.png')">
+                <span class="exploreBoatNumber">
+                    <img src="pictures/Nava_sailboatIcon.png" alt="">
+                    <span class="eBNum">730</span>
+                </span>
+                <span class="exploreDestination">
+                    <span class="place">
+                        Fifueira da Foz
+                    </span>
+                    <br>
+                    <span class="country">
+                        Portugal
+                    </span>
+                </span>
+            </div>
+            <div class="exploreCard" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('pictures/Destination2.png')">
+                <span class="exploreBoatNumber">
+                        <img src="pictures/Nava_sailboatIcon.png" alt="">
+                        <span class="eBNum">730</span>
+                </span>
+                <span class="exploreDestination">
+                    <span class="place">
+                        Ibiza
+                    </span>
+                    <br>
+                    <span class="country">
+                        Spain
+                    </span>
+                </span>
+            </div>
+            <div class="exploreCard" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('pictures/Destination3.png')">
+                <span class="exploreBoatNumber">
+                        <img src="pictures/Nava_sailboatIcon.png" alt="">
+                        <span class="eBNum">730</span>
+                </span>
+                <span class="exploreDestination">
+                    <span class="place">
+                        Palma de Mallorca
+                    </span>
+                    <br>
+                    <span class="country">
+                        Spain
+                    </span>
+                </span>
+            </div>
+            <div class="exploreCard" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('pictures/Destination4.png')">
+                <span class="exploreBoatNumber">
+                        <img src="pictures/Nava_sailboatIcon.png" alt="">
+                        <span class="eBNum">730</span>
+                </span>
+                <span class="exploreDestination">
+                    <span class="place">
+                        Portofino
+                    </span>
+                    <br>
+                    <span class="country">
+                        Italy
+                    </span>
+                </span>
+            </div>
+            <div class="exploreCard" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('pictures/Destination5.png')">
+                <span class="exploreBoatNumber">
+                        <img src="pictures/Nava_sailboatIcon.png" alt="">
+                        <span class="eBNum">730</span>
+                </span>
+                <span class="exploreDestination">
+                    <span class="place">
+                        Port Hercules
+                    </span>
+                    <br>
+                    <span class="country">
+                        Monaco
+                    </span>
+                </span>
+            </div>
+                <div class="exploreMore">
+                    <button>Explore more destinations</button>
+                </div>
+        </div>
+    </div>
+    <div class="ownBoat" id="addBoat">
+        <div class="ownBoatContents">
+            <span class="contPrimary">
+                Have your own boat?
+            </span>
+            <br>
+            <span class="contSecondary">
+                NAVIGARE NECESSE EST, VIVERE NON EST NECESSE
+            </span>
+            <br>
+            <span class="contButton">
+                <button>Make money with your boat</button>
+            </span>
+        </div>
+    </div>
+    <div class="featuredBoats">
+        <div class="featuredHeading">
+            <span class="featuredPrimary">
+                Featured Boats
+            </span>
+            <br>
+            <span class="featuredSecondary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit
+            </span>
+        </div>
+        <div class="featuredCards">
+            <div class="featuredCard" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('pictures/Boat1.png')">
+                <div class="boatPriceTag">
+                    €580 / day    
+                </div>
+                <div class="featuredCardText">
+                        <span class="featuredName">
+                            Delphia 47
+                        </span>
+                        <span class="featuredInfo">
+                            <img src="pictures/Location.png" alt="" height="12px">&nbsp;Gdansk, Poland &nbsp;&nbsp;&nbsp;
+                            <img src="pictures/People.png" alt="" height="12px"> 10 Berths
+                        </span>
+                </div>
+                
+            </div>
+            <div class="featuredCard" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('pictures/Boat2.png')">
+                <div class="boatPriceTag">
+                    €580 / day
+                </div>
+                <div class="featuredCardText">
+                        <span class="featuredName">
+                            Sense 55
+                        </span>
+                        <span class="featuredInfo">
+                            <img src="pictures/Location.png" alt="" height="12px">&nbsp;Portofino, Italy &nbsp;&nbsp;&nbsp;
+                            <img src="pictures/People.png" alt="" height="12px"> 10 Berths
+                        </span>
+                </div>
+                
+            </div>
+            <div class="featuredCard" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('pictures/Boat3.png')">
+                <div class="boatPriceTag">
+                    €580 / day
+                </div>
+                <div class="featuredCardText">
+                    <span class="featuredName">
+                            Crusier 51
+                    </span>
+                    <span class="featuredInfo">
+                        <img src="pictures/Location.png" alt="" height="12px">&nbsp;Paolma de Mallorca, Spain&nbsp;&nbsp;&nbsp;
+                        <img src="pictures/People.png" alt="" height="12px"> 10 Berths
+                    </span>
+                </div>
+                
+            </div>
+            <div class="featuredCard" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('pictures/Boat4.png')">
+                <div class="boatPriceTag">
+                    €580 / day
+                </div>
+                <div class="featuredCardText">
+                        <span class="featuredName">
+                            Crusier 415
+                        </span>
+                        <span class="featuredInfo">
+                            <img src="pictures/Location.png" alt="" height="12px">&nbsp;Lisbon, Portugal &nbsp;&nbsp;&nbsp;
+                            <img src="pictures/People.png" alt="" height="12px"> 10 Berths
+                        </span>
+                </div>
+            </div>
+        </div>
+        <div class="loadMoreFeatured">
+            <button>Load More Boats</button>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footerLocations footerList">
+            <span class="footerTitle">Top Location</span>
+            <br>
+            <span>Gdansk, Poland</span>
+            <span>Ibiza, Spain</span>
+            <span>Portofino, Italy</span>
+            <span>Port Hercules, Monaco</span>
+        </div>
+        <div class="footerBoats footerList">
+            <span class="footerTitle">Featured Boats</span>
+            <br>
+            <span>Delphia 47</span>
+            <span>Sense 55</span>
+            <span>Cruiser 51</span>
+            <span>Cruiser 415</span>
+        </div>
+        <div class="footerSubscribe footerList">
+            <span class="footerTitle">Subscribe to our newsletter</span>
+            <br>
+            <span>
+                <form action="#" class="subscribeForm">
+                    <input type="email" placeholder="Your email address">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </span>
+            <span class="footerSocialMedia">
+                <span>
+                     <i class="fab fa-facebook-f" facebook></i>
+                </span>
+                <span>
+                    <i class="fab fa-twitter" twitter></i>
+                </span>
+                <span>
+                    <i class="fab fa-google-plus-g" googlePlus></i>
+                </span>
+            </span>
+        </div>
+        <div class="footerContact footerList">
+            <span class="footerTitle">Contact us</span>
+            <br>        
+            <span>Epitome Solution</span>
+            <span>example@example.com</span>
+            <span>Location, Country</span>
+            <span>+977 071256985</span>
+        </div>
+    </div>
+</body>
+</html>
